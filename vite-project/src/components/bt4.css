@@ -1,0 +1,18 @@
+.list-view {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-view {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  

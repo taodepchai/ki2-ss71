@@ -1,0 +1,32 @@
+
+.menu {
+    background-color: #1a1a1a;
+    color: white;
+    width: 250px;
+    transition: width 0.3s;
+  }
+  
+  .menu.collapsed {
+    width: 60px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu li .icon {
+    margin-right: 10px;
+  }
+  
+  .menu li:hover {
+    background-color: #333;
+  }
+  
